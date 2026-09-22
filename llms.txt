@@ -28,11 +28,11 @@ Key facts:
 
 ## Pages
 
-- [Mowzoon — English](https://mowzoon.app/en/): overview, features, AI, how it works, GCC and FAQ.
-- [موزون — العربية](https://mowzoon.app/ar/): النسخة العربية من الصفحة الرئيسية.
-- [Privacy Policy](https://mowzoon.app/en/privacy-policy/) · [سياسة الخصوصية](https://mowzoon.app/ar/privacy-policy/)
-- [Terms of Use](https://mowzoon.app/en/terms-of-use/) · [شروط الاستخدام](https://mowzoon.app/ar/terms-of-use/)
-- [Delete Account](https://mowzoon.app/en/delete-account/) · [حذف الحساب](https://mowzoon.app/ar/delete-account/)
+- [Mowzoon — English](https://mawzun.site/en/): overview, features, AI, how it works, GCC and FAQ.
+- [موزون — العربية](https://mawzun.site/ar/): النسخة العربية من الصفحة الرئيسية.
+- [Privacy Policy](https://mawzun.site/en/privacy-policy/) · [سياسة الخصوصية](https://mawzun.site/ar/privacy-policy/)
+- [Terms of Use](https://mawzun.site/en/terms-of-use/) · [شروط الاستخدام](https://mawzun.site/ar/terms-of-use/)
+- [Delete Account](https://mawzun.site/en/delete-account/) · [حذف الحساب](https://mawzun.site/ar/delete-account/)
 
 ## FAQ
 
@@ -48,5 +48,5 @@ Key facts:
 
 ## Contact
 
-- Support: support@mowzoon.app
-- Privacy: privacy@mowzoon.app
+- Support: support@mawzun.site
+- Privacy: privacy@mawzun.site

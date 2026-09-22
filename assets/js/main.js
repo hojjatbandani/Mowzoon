@@ -336,7 +336,7 @@
   }
 
   /* Delete-account request: opens the visitor's email app with the request
-     filled in, addressed to privacy@mowzoon.app. */
+     filled in, addressed to privacy@mawzun.site. */
   var form = $("#delete-form");
   if (form) {
     form.addEventListener("submit", function (event) {
@@ -351,7 +351,7 @@
         .replace("{note}", note || "-")
         .replace(/\\n/g, "\n");
       window.location.href =
-        "mailto:privacy@mowzoon.app?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+        "mailto:privacy@mawzun.site?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
       var status = $(".form-status", form.parentNode);
       if (status) status.classList.add("is-shown");
     });

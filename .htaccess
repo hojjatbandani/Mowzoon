@@ -7,15 +7,15 @@ AddDefaultCharset utf-8
 AddType application/manifest+json .webmanifest
 AddType text/plain .txt
 
-# Always https://mowzoon.app (no www, no plain http) — only on the real domain,
+# Always https://mawzun.site (no www, no plain http) — only on the real domain,
 # so a local preview is left alone.
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteCond %{HTTP_HOST} ^www\.mowzoon\.app$ [NC]
-  RewriteRule ^ https://mowzoon.app%{REQUEST_URI} [L,R=301]
+  RewriteRule ^ https://mawzun.site%{REQUEST_URI} [L,R=301]
   RewriteCond %{HTTP_HOST} ^mowzoon\.app$ [NC]
   RewriteCond %{HTTPS} off
-  RewriteRule ^ https://mowzoon.app%{REQUEST_URI} [L,R=301]
+  RewriteRule ^ https://mawzun.site%{REQUEST_URI} [L,R=301]
 </IfModule>
 
 <IfModule mod_deflate.c>

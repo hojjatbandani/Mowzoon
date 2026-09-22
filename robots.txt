@@ -1,4 +1,4 @@
-# Mowzoon — https://mowzoon.app
+# Mowzoon — https://mawzun.site
 # Everything is public; search engines and AI assistants are welcome to read
 # and cite it.
 
@@ -41,4 +41,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://mowzoon.app/sitemap.xml
+Sitemap: https://mawzun.site/sitemap.xml
