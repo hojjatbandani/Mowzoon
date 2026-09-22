@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mowzoon.app/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mowzoon.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mowzoon.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mowzoon.app/"/>
+  </url>
+  <url>
+    <loc>https://mowzoon.app/en/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mowzoon.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mowzoon.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mowzoon.app/"/>
+  </url>
+  <url>
+    <loc>https://mowzoon.app/ar/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mowzoon.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mowzoon.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mowzoon.app/"/>
+  </url>
+  <url>
+    <loc>https://mowzoon.app/en/privacy-policy/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mowzoon.app/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mowzoon.app/ar/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mowzoon.app/en/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://mowzoon.app/ar/privacy-policy/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mowzoon.app/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mowzoon.app/ar/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mowzoon.app/en/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://mowzoon.app/en/terms-of-use/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mowzoon.app/en/terms-of-use/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mowzoon.app/ar/terms-of-use/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mowzoon.app/en/terms-of-use/"/>
+  </url>
+  <url>
+    <loc>https://mowzoon.app/ar/terms-of-use/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mowzoon.app/en/terms-of-use/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mowzoon.app/ar/terms-of-use/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mowzoon.app/en/terms-of-use/"/>
+  </url>
+  <url>
+    <loc>https://mowzoon.app/en/delete-account/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mowzoon.app/en/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mowzoon.app/ar/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mowzoon.app/en/delete-account/"/>
+  </url>
+  <url>
+    <loc>https://mowzoon.app/ar/delete-account/</loc>
+    <lastmod>2026-09-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mowzoon.app/en/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mowzoon.app/ar/delete-account/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mowzoon.app/en/delete-account/"/>
+  </url>
+</urlset>

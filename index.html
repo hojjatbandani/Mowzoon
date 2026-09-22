@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <script>
+    document.documentElement.className = document.documentElement.className.replace("no-js", "js");
+    // A visitor who already chose a language goes straight to it.
+    (function () {
+      try {
+        var saved = window.localStorage.getItem("mowzoon-lang");
+        if (saved === "ar" || saved === "en") window.location.replace(saved + "/");
+      } catch (e) {}
+    })();
+  </script>
+  <title>Mowzoon – AI Budget &amp; Expense Tracker for GCC | موزون</title>
+  <meta name="description" content="Track expenses, plan budgets, scan receipts and get AI money insights with Mowzoon, built for the GCC. | تابع مصاريفك ورتّب ميزانيتك مع موزون.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#012a20">
+  <link rel="canonical" href="https://mowzoon.app/">
+  <link rel="alternate" hreflang="en" href="https://mowzoon.app/en/">
+  <link rel="alternate" hreflang="ar" href="https://mowzoon.app/ar/">
+  <link rel="alternate" hreflang="x-default" href="https://mowzoon.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mowzoon">
+  <meta property="og:title" content="Mowzoon – Smarter Money Management with AI">
+  <meta property="og:description" content="Track expenses, manage budgets, scan receipts, and understand your money with an AI-powered finance app built for GCC users.">
+  <meta property="og:url" content="https://mowzoon.app/">
+  <meta property="og:image" content="https://mowzoon.app/assets/img/og-en.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Take control of your money with Mowzoon">
+  <meta name="twitter:description" content="A smarter AI-powered way to track expenses, manage budgets, and understand your finances.">
+  <meta name="twitter:image" content="https://mowzoon.app/assets/img/og-en.jpg">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://mowzoon.app/#organization",
+        "name": "Mowzoon",
+        "alternateName": "موزون",
+        "url": "https://mowzoon.app/",
+        "logo": "https://mowzoon.app/assets/img/logo-192.png",
+        "email": "support@mowzoon.app"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://mowzoon.app/#website",
+        "url": "https://mowzoon.app/",
+        "name": "Mowzoon",
+        "alternateName": "موزون",
+        "inLanguage": ["en", "ar"],
+        "publisher": { "@id": "https://mowzoon.app/#organization" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <main class="chooser">
+    <div class="glow glow--gold" aria-hidden="true"></div>
+    <div class="glow glow--mint" aria-hidden="true"></div>
+    <div>
+      <img src="assets/img/logo-192.png" width="110" height="110" alt="Mowzoon logo">
+      <h1>Mowzoon <span lang="ar">· موزون</span></h1>
+      <p>Smarter money management, powered by AI.<br><span lang="ar" dir="rtl">إدارة أذكى لفلوسك بالذكاء الاصطناعي.</span></p>
+      <div class="choices">
+        <a class="btn btn--gold" href="ar/" hreflang="ar" lang="ar" data-lang="ar">العربية</a>
+        <a class="btn btn--ghost" href="en/" hreflang="en" data-lang="en">English</a>
+      </div>
+    </div>
+  </main>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

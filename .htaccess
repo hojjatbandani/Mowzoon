@@ -1,0 +1,40 @@
+# Mowzoon website — optional Apache settings. Other hosts (Netlify, Cloudflare
+# Pages, Nginx…) need their own equivalents; the site works without them.
+
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+AddDefaultCharset utf-8
+AddType application/manifest+json .webmanifest
+AddType text/plain .txt
+
+# Always https://mowzoon.app (no www, no plain http) — only on the real domain,
+# so a local preview is left alone.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^www\.mowzoon\.app$ [NC]
+  RewriteRule ^ https://mowzoon.app%{REQUEST_URI} [L,R=301]
+  RewriteCond %{HTTP_HOST} ^mowzoon\.app$ [NC]
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://mowzoon.app%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript application/json application/manifest+json image/svg+xml application/xml text/xml text/plain
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 month"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>

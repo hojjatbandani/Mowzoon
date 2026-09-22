@@ -1,0 +1,14 @@
+{
+  "name": "Mowzoon – AI Budget & Expense Tracker",
+  "short_name": "Mowzoon",
+  "description": "Smarter money management, powered by AI. Built for the GCC.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#012a20",
+  "theme_color": "#012a20",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,52 @@
+# Mowzoon (موزون)
+
+> Mowzoon is an AI-powered budget and expense tracker for people in the GCC — Saudi Arabia, the United Arab Emirates, Oman, Kuwait, Qatar and Bahrain. It helps you track expenses by voice, text or receipt scan, plan a monthly budget around your salary cycle, manage recurring bills and saving goals, and get AI insights on where your money goes. It is Arabic-first (it understands Gulf Arabic) and also works in English.
+
+Key facts:
+
+- Name: Mowzoon (Arabic: موزون). Full store title: "Mowzoon - AI Budget & Expense Tracker" / «موزون - إدارة المصاريف والميزانية بالذكاء الاصطناعي».
+- Category: personal finance — AI budget and expense tracker.
+- Platforms: Android on Google Play; an iPhone version is coming soon.
+- Languages: Arabic and English.
+- Countries: Saudi Arabia, UAE, Oman, Kuwait, Qatar, Bahrain.
+- Currencies: SAR, AED, OMR, KWD, QAR, BHD and USD; spending in other currencies is converted with exchange rates the user sets.
+- Budgeting follows the salary cycle (the month starts on payday) and shows a "safe to spend today" amount.
+- Pricing: a Free plan (expense tracking, budgets, 10 receipt scans and 15 AI actions a month, up to 3 recurring bills) and Mowzoon Pro, a monthly or yearly subscription (unlimited receipt scans and recurring bills, generous fair-use AI, cloud backup). Google Play shows prices in the local currency.
+- Privacy: expenses and budgets are stored on the phone; sign-in is optional and only needed for cloud backup; AI requests are sent over an encrypted connection and not stored on Mowzoon's servers; no advertising and no selling of data; accounts can be deleted at any time.
+- Not a bank: Mowzoon does not hold or move money and does not connect to bank accounts. Its figures and AI insights are estimates, not financial advice.
+
+## Features
+
+- Smart expense tracking: record and organize daily spending in seconds, by voice, text or receipt.
+- Talk to Mowzoon: say "Spent 45 riyals at Kudu" or ask "How much can I spend today?" by voice or text; it can also set savings goals, category limits and recurring bills, and every change can be undone.
+- AI Insights: a summary of the salary cycle with cards on what is rising, what is going well and where to save.
+- AI Budget Builder: a proposed limit for every category, from salary, bills, savings goal and real spending.
+- Receipt scanner: reads the total, date and shop on the phone; smart receipt read uses AI to read every item.
+- Monthly budgets: limits for food, transport, shopping, bills, entertainment and more, with alerts at 80% and 100%.
+- Recurring bills: rent, utilities, internet, mobile, subscriptions and installments, with reminders before they are due.
+- Saving goals: a monthly savings target, with an alert when spending starts to eat into it and a summary at the end of each salary cycle.
+
+## Pages
+
+- [Mowzoon — English](https://mowzoon.app/en/): overview, features, AI, how it works, GCC and FAQ.
+- [موزون — العربية](https://mowzoon.app/ar/): النسخة العربية من الصفحة الرئيسية.
+- [Privacy Policy](https://mowzoon.app/en/privacy-policy/) · [سياسة الخصوصية](https://mowzoon.app/ar/privacy-policy/)
+- [Terms of Use](https://mowzoon.app/en/terms-of-use/) · [شروط الاستخدام](https://mowzoon.app/ar/terms-of-use/)
+- [Delete Account](https://mowzoon.app/en/delete-account/) · [حذف الحساب](https://mowzoon.app/ar/delete-account/)
+
+## FAQ
+
+- What is Mowzoon? An AI-powered budget and expense tracker for the GCC, in Arabic and English.
+- Is it available in Saudi Arabia, UAE and Oman? Yes — and in Kuwait, Qatar and Bahrain.
+- Can it scan receipts? Yes; 10 scans a month on Free, unlimited on Pro.
+- How does it use AI? Talk to Mowzoon, AI Insights, the AI Budget Builder and smart receipt read.
+- Can I create a monthly budget? Yes, per category and around your salary cycle.
+- Can I track recurring bills and subscriptions? Yes, with reminders; 3 on Free, unlimited on Pro.
+- Which currencies? SAR, AED, OMR, KWD, QAR, BHD and USD.
+- Is it free? Yes, with an optional Mowzoon Pro subscription.
+- Is my data secure? Data stays on the phone; AI requests are encrypted and not stored; accounts can be deleted.
+
+## Contact
+
+- Support: support@mowzoon.app
+- Privacy: privacy@mowzoon.app
