@@ -16,6 +16,15 @@ AddType text/plain .txt
   RewriteCond %{HTTP_HOST} ^mowzoon\.app$ [NC]
   RewriteCond %{HTTPS} off
   RewriteRule ^ https://mawzun.site%{REQUEST_URI} [L,R=301]
+
+  # mawzun.site/app — the one link to hand out. An Android phone goes straight
+  # to Google Play; everything else gets app/index.html, which sends an iPhone
+  # to the App Store once its link is set there. 302, so the target can change.
+  RewriteCond %{HTTP_USER_AGENT} android [NC]
+  RewriteRule ^app/?$ https://play.google.com/store/apps/details?id=app.mowzoon [R=302,L]
+  # When the iPhone app is live, uncomment and put its App Store link here too:
+  # RewriteCond %{HTTP_USER_AGENT} (iphone|ipad|ipod) [NC]
+  # RewriteRule ^app/?$ https://apps.apple.com/app/id0000000000 [R=302,L]
 </IfModule>
 
 <IfModule mod_deflate.c>

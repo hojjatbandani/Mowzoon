@@ -352,6 +352,29 @@ html[dir="rtl"] .store-badge {
   transform: none;
 }
 
+/* The icon of a store that isn't live yet, with a "Soon" tag on its corner. */
+.store-badge__icon {
+  position: relative;
+  display: inline-flex;
+  flex: none;
+}
+
+.store-badge__tag {
+  position: absolute;
+  top: -10px;
+  inset-inline-end: -14px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: #f2c14e;
+  color: #012a20;
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-shadow: 0 0 0 2px #0b0f0e;
+}
+
 .chip {
   display: inline-flex;
   align-items: center;

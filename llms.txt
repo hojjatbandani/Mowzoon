@@ -11,7 +11,7 @@ Key facts:
 - Countries: Saudi Arabia, UAE, Oman, Kuwait, Qatar, Bahrain.
 - Currencies: SAR, AED, OMR, KWD, QAR, BHD and USD; spending in other currencies is converted with exchange rates the user sets.
 - Budgeting follows the salary cycle (the month starts on payday) and shows a "safe to spend today" amount.
-- Pricing: a Free plan (expense tracking, budgets, 10 receipt scans and 15 AI actions a month, up to 3 recurring bills) and Mowzoon Pro, a monthly or yearly subscription (unlimited receipt scans and recurring bills, generous fair-use AI, cloud backup). Google Play shows prices in the local currency.
+- Pricing: a Free plan (expense tracking, budgets, 10 receipt scans and 5 AI actions a month, up to 3 recurring bills) and Mowzoon Pro, a monthly or yearly subscription (unlimited receipt scans and recurring bills, generous fair-use AI, cloud backup). Google Play shows prices in the local currency.
 - Privacy: expenses and budgets are stored on the phone; sign-in is optional and only needed for cloud backup; AI requests are sent over an encrypted connection and not stored on Mowzoon's servers; no advertising and no selling of data; accounts can be deleted at any time.
 - Not a bank: Mowzoon does not hold or move money and does not connect to bank accounts. Its figures and AI insights are estimates, not financial advice.
 
