@@ -352,6 +352,31 @@ html[dir="rtl"] .store-badge {
   transform: none;
 }
 
+/* The badge that works today: a gold ring and a slow sheen, so it reads as the
+   thing to tap. */
+.store-badge--live {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  box-shadow: inset 0 0 0 1.5px var(--gold-400), 0 0 0 6px rgba(242, 193, 78, 0.14),
+    0 20px 44px -16px rgba(242, 193, 78, 0.6);
+}
+
+.store-badge--live::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(110deg, transparent 20%, rgba(255, 255, 255, 0.22) 45%, transparent 70%);
+  transform: translateX(-120%);
+  animation: sheen 4.5s ease-in-out infinite 1.6s;
+}
+
+.store-badge--live:hover {
+  box-shadow: inset 0 0 0 2px var(--gold-300), 0 0 0 8px rgba(242, 193, 78, 0.2),
+    0 24px 50px -14px rgba(242, 193, 78, 0.75);
+}
+
 /* The icon of a store that isn't live yet, with a "Soon" tag on its corner. */
 .store-badge__icon {
   position: relative;
@@ -603,9 +628,11 @@ body.nav-open .site-header {
 
 /* ── Hero ─────────────────────────────────────────────────────────────── */
 
+/* Sizes that depend on the height of the window as well as its width, so the
+   store buttons stay above the fold on a short laptop screen too. */
 .hero {
   position: relative;
-  padding-top: calc(var(--header-h) + clamp(40px, 7vw, 88px));
+  padding-top: calc(var(--header-h) + clamp(28px, min(7vw, 8vh), 88px));
   padding-bottom: clamp(56px, 8vw, 110px);
   color: #fff;
   background: var(--hero-gradient);
@@ -672,30 +699,98 @@ body.nav-open .site-header {
 }
 
 .hero-copy .chip {
-  margin-bottom: 22px;
+  margin-bottom: clamp(14px, 2.6vh, 22px);
 }
 
 .hero h1 {
-  font-size: clamp(2.35rem, 5.4vw, 4.35rem);
-  margin-bottom: 22px;
+  font-size: clamp(2.35rem, min(5.4vw, 8.2vh), 4.35rem);
+  margin-bottom: clamp(14px, 2.6vh, 22px);
 }
 
 html[lang="ar"] .hero h1 {
-  font-size: clamp(2.2rem, 5vw, 3.9rem);
+  font-size: clamp(2.2rem, min(5vw, 7.6vh), 3.9rem);
 }
 
 .hero-lead {
   max-width: 600px;
   font-size: clamp(1.02rem, 1.6vw, 1.2rem);
   color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 32px;
+  margin-bottom: clamp(20px, 3.6vh, 32px);
 }
 
+/* The store buttons are the main action of the page. */
 .hero-ctas {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: clamp(20px, 3.6vh, 30px);
+}
+
+.hero .store-badges {
   gap: 14px;
-  margin-bottom: 30px;
+}
+
+.hero .store-badges .store-badge {
+  min-height: 68px;
+  padding-block: 10px;
+  padding-inline: 20px 28px;
+  border-radius: 18px;
+  gap: 14px;
+}
+
+.hero .store-badge svg {
+  width: 34px;
+  height: 34px;
+}
+
+/* Room for the "Soon" tag that sits on the icon's corner. */
+.hero .store-badge__icon {
+  margin-inline-end: 8px;
+}
+
+.hero .store-badge small {
+  font-size: 11.5px;
+}
+
+.hero .store-badge strong {
+  font-size: 21px;
+}
+
+/* Not live yet, so it has no hover, but it is as easy to see as the other one. */
+.hero .store-badges .store-badge--soon {
+  opacity: 1;
+  box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.34);
+}
+
+.hero-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15.5px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.86);
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.hero-more svg {
+  width: 18px;
+  height: 18px;
+  transition: translate 0.25s;
+}
+
+.hero-more:hover {
+  color: var(--gold-300);
+  border-color: currentColor;
+}
+
+.hero-more:hover svg {
+  translate: 3px 0;
+}
+
+html[dir="rtl"] .hero-more:hover svg {
+  translate: -3px 0;
 }
 
 .hero-points {
@@ -997,6 +1092,14 @@ $1
   }
 }
 
+/* On a short, wide window, start the text at the top instead of centring it
+   against the tall phone, so the store buttons are not pushed down. */
+@media (min-width: 961px) and (max-height: 800px) {
+  .hero-grid {
+    align-items: start;
+  }
+}
+
 @media (max-width: 960px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -1007,7 +1110,10 @@ $1
     margin-inline: auto;
   }
 
-  .hero-ctas,
+  .hero-ctas {
+    align-items: center;
+  }
+
   .hero-points,
   .hero .store-badges {
     justify-content: center;
@@ -1064,8 +1170,24 @@ $1
     width: 100%;
   }
 
+  /* One badge per row, as wide as the screen: easy to hit with a thumb. */
   .hero-ctas {
+    align-items: stretch;
+  }
+
+  .hero .store-badges {
     flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .hero .store-badges .store-badge {
+    min-height: 64px;
+    justify-content: center;
+  }
+
+  .hero-more {
+    align-self: center;
   }
 }
 
