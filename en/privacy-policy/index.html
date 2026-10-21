@@ -38,7 +38,7 @@
         "url": "https://mawzun.site/en/privacy-policy/",
         "name": "Privacy Policy – Mowzoon",
         "inLanguage": "en",
-        "dateModified": "2026-10-18",
+        "dateModified": "2026-10-21",
         "isPartOf": { "@id": "https://mawzun.site/#website" },
         "about": { "@id": "https://mawzun.site/#app" },
         "publisher": { "@id": "https://mawzun.site/#organization" }
@@ -108,7 +108,7 @@
         <ol class="breadcrumbs"><li><a href="../">Mowzoon</a></li><li aria-current="page">Privacy Policy</li></ol>
         <h1>Privacy Policy</h1>
         <p>Mowzoon helps you manage your money, so your trust matters. This policy explains, in plain language, what data the app uses, where it goes and the choices you have.</p>
-        <span class="chip chip--gold updated">Last updated: 18 October 2026</span>
+        <span class="chip chip--gold updated">Last updated: 21 October 2026</span>
       </div>
     </section>
 
@@ -182,14 +182,14 @@
         <p>If you are a Mowzoon Pro subscriber and sign in, the app can back up your data to our servers so you can restore it on a new phone. We keep your latest backup, linked to your account, until you delete it or your account.</p>
 
         <h2 id="purchases">Subscriptions and purchases</h2>
-        <p>Mowzoon Pro is sold through Google Play and the App Store. They handle payment; we never see your card or bank details. To confirm that a subscription is valid, we receive and keep the purchase details the store provides — such as the product, purchase token, status, renewal state and expiry date — linked to your app ID.</p>
+        <p>Mowzoon Pro is sold through Google Play and the App Store. They handle payment; we never see your card or bank details. To confirm that a subscription is valid, we receive and keep the purchase details the store provides — such as the product, purchase token, status, renewal state and expiry date — linked to your app ID. Purchases are processed and checked by RevenueCat, our subscription service, which receives the same details and your app ID from the app and the store.</p>
 
         <h2 id="usage">Usage limits and your app ID</h2>
         <p>When you install Mowzoon, it creates a random app ID that doesn’t contain your name, phone number or email. We use it to count, each month, how many AI actions and receipt scans you have used, so the Free plan’s limits and Pro’s fair use can work. We keep the monthly counts and a unique number for each request, so nothing is counted twice — not the content of the request.</p>
 
         <h2 id="analytics">Analytics</h2>
         <p>To understand how Mowzoon is used and how our plans page performs, the app records a small set of events: opening the plans page and from where, choosing a plan, a purchase starting, succeeding or failing, restoring a purchase, choosing to continue with Free, reaching a monthly limit, seeing and answering the daily “Anything you forgot to log today?” card, your weekly report being ready and opened and whether its AI summary was created, and staying on track with your money for several days in a row. Each event carries only: the plan or store offer, where the plans page was opened from and how you left it, a store error code if a purchase fails, whether you are on Free or Pro, your country (one of the six GCC countries, or “other”), your platform and the app’s language.</p>
-        <p>The app sends these events to our servers and to Amplitude, an analytics service. Amplitude also receives a random ID it creates for your install, and your phone’s language. We have set it not to collect your location, device details, mobile carrier or advertising IDs.</p>
+        <p>The app sends these events only to our own servers, together with your app ID. No outside analytics service receives them.</p>
         <p>Analytics never include amounts, balances, expenses, receipt contents or AI conversations.</p>
 
         <h2 id="permissions">Permissions and notifications</h2>
@@ -208,7 +208,7 @@
           <li><strong>OpenAI</strong> — processes AI requests on our behalf.</li>
           <li><strong>Google</strong> — Firebase Authentication (sign-in), Google Play (purchases) and ML Kit (on-device text reading).</li>
           <li><strong>Apple</strong> — App Store purchases on iPhone.</li>
-          <li><strong>Amplitude</strong> — receives the analytics events described above, to help us understand how the app is used.</li>
+          <li><strong>RevenueCat</strong> — processes and checks subscription purchases on our behalf.</li>
           <li><strong>Our hosting provider</strong> — runs the servers that store accounts, backups and usage counts.</li>
           <li><strong>Authorities</strong> — only when the law requires it.</li>
         </ul>
